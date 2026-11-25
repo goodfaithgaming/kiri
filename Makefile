@@ -10,7 +10,7 @@ build: lint test
 npm-install:
 	pnpm install --ignore-scripts
 
-lint: npm-install
+lint:
 	pnpm exec eslint ./src
 
 lint-fix: npm-install
